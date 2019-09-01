@@ -1,0 +1,35 @@
+.dashboardWorkScreen {
+  min-height: 85%;
+}
+#dashboardSection1 {
+  width: 100%;
+  padding: 40px;
+  text-align: center;
+}
+
+.dashboardLink {
+  overflow: hidden;
+  width: 98%;
+  height:70px;
+  padding: 20px;
+  margin-top: 10px;
+  background-color: #181b17;
+  color: #a6ce39;
+  text-align: center;
+}
+
+.dashboardDesc {
+  overflow: hidden;
+  display: none;
+  padding: 20px;
+  width: 98%;
+  height: 150px;
+  background-color: #ddd;
+  color: #181b1c;
+  text-align: center;
+}
+
+.dashboardDesc:hover {
+  background-color: #8bce4a;
+  color: #181b1c;
+}

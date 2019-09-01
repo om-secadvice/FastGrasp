@@ -1,0 +1,34 @@
+#exploreSection1, #exploreSection2, #exploreSection3 {
+  width: 100%;
+  padding: 2%;
+}
+
+table.category {
+  margin: auto;
+  width:98%;
+}
+.category tr {
+  text-align: center;
+  color: #181b17;
+  background-color: lightgrey;
+}
+.category th {
+    width: 20%;
+    text-align: left;
+    padding: 20px;
+}
+.category td {
+    width: 10%;
+    text-align: left;
+    padding: 10px;
+}
+
+.category tr:nth-child(1) {
+  text-align: left;
+    background-color: #181b17;
+}
+
+.category tr:nth-child(even) {
+    background-color: #dddddd;
+    color: #181b17;
+}
